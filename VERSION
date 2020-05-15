@@ -1,0 +1,27 @@
+commit 93d81d2c44ce08c9fb80c61ddaf45d3ccfca7b25
+Author: Emmett Lalish <elalish@google.com>
+Date:   Fri May 15 14:15:12 2020 -0700
+
+    Refactor DPR (#1179)
+    
+    * no longer changing three.js dpr
+    
+    * refactored DPR into renderer
+    
+    * cleanup and fix tests
+    
+    * fixed AR viewport bug
+    
+    * pulling the rest of the resizing code into Renderer to fix some bugs
+    
+    * cleanup
+    
+    * fixing AR viewport
+    
+    * fixed hotspot race
+    
+    * update hotspot-spec
+    
+    * using the threeRenderer size and dpr
+    
+    * tiny cleanup
